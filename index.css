@@ -1,0 +1,327 @@
+/*   font-family: "Golos Text", sans-serif; */
+/*   font-family: "Inter Tight", sans-serif; */
+/*   font-family: "Cal Sans", sans-serif; */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+header {
+  transition: all 0.4s ease-in-out;
+  padding: 20px;
+  .head {
+    width: 100%;
+    background-color: #313131;
+    /* الاضافة */
+    transition: all 0.4s ease-in-out;
+    padding: 0 2px;
+    border-radius: 5px;
+    nav {
+      font-family: "Golos Text", sans-serif;
+      .yell {
+        color: #fed403;
+      }
+      a {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+        transition: 400ms;
+        &:hover {
+          color: #fed403;
+        }
+      }
+      @media (max-width: 1024px) {
+        display: none !important;
+      }
+    }
+    svg {
+      color: white;
+      cursor: pointer;
+      @media (max-width: 767px) {
+        width: 30px;
+      }
+      &:hover {
+        color: #fed403 !important;
+      }
+    }
+    button {
+      width: 182px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Golos Text", sans-serif;
+      background-color: #fed403;
+      border-radius: 5px;
+      @media (max-width: 1024px) {
+        display: none !important;
+      }
+    }
+  }
+}
+header.scrolled {
+  padding: 0;
+}
+header.scrolled .head {
+  width: 100%;
+  border-radius: 0;
+  background-color: #313131;
+}
+.bghome {
+  /* height: 100vh; */
+  background-image: url(./images/engineer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  div {
+    padding-top: 180px;
+    /* padding-left: 100px; */
+    padding-bottom: 60px;
+    @media (max-width: 767px) {
+      padding-top: 150px;
+      padding-bottom: 120px;
+      padding-left: 18px;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      padding-top: 220px;
+      padding-bottom: 100px;
+      padding-left: 20px;
+    }
+    .p1 {
+      font-size: 13px;
+      font-weight: 400;
+      font-family: "Golos Text", sans-serif;
+      letter-spacing: 1px;
+      color: #fed403 !important;
+      @media (max-width: 767px) {
+        width: 300px;
+        font-size: 8px;
+      }
+      /* @media (min-width: 768px) and (max-width: 1023px) {
+        width: 200px;
+        font-size: 10px;
+      } */
+    }
+    h1 {
+      max-width: 650px !important;
+      font-size: 80px;
+      font-weight: 400;
+      color: #ffffff;
+      font-family: "Cal Sans", sans-serif;
+      @media (max-width: 767px) {
+        width: 220px;
+        font-size: 25px;
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        font-size: 50px !important;
+        width: 500px;
+      }
+    }
+    .line {
+      color: #ffffff;
+      max-width: 500px !important;
+      @media (max-width: 767px) {
+        width: 200px;
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 410px;
+      }
+    }
+    .p2 {
+      max-width: 550px !important;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Golos Text", sans-serif;
+      color: #d6d3d2;
+      @media (max-width: 767px) {
+        font-size: 9px;
+        width: 280px;
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 490px;
+      }
+    }
+    button {
+      width: 182px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Golos Text", sans-serif;
+      background-color: #fed403;
+      border-radius: 7px;
+      transition: all 400ms;
+      &:hover {
+        background-color: #313131;
+        color: #ffffff;
+      }
+    }
+  }
+  .choose {
+    max-width: 300px;
+    background-color: #313131a8;
+    color: #ffffff;
+    right: 30px;
+    bottom: 15px;
+    border-radius: 3%;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    @media (max-width: 1023px) {
+      display: none !important;
+    }
+    .first {
+      font-size: 18px;
+    }
+    .second {
+      font-size: 18px;
+      color: #999695;
+      transition: 400ms;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+.bgg {
+  background-color: #313131;
+  .all_images {
+    width: 75px;
+    height: 60px;
+    background-color: #3c3c3c !important;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Cal Sans", sans-serif;
+    color: #ffffff;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+    @media (min-width: 992px) {
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+  hr {
+    width: 300px;
+    color: #ffffff;
+  }
+  p {
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 400;
+    color: #d6d6d6;
+    @media (max-width: 767px) {
+      width: 300px !important;
+    }
+    @media (min-width: 768px) and(max-width: 992px) {
+      /* width: 200px !important;       */
+    }
+    @media (min-width: 1050px) {
+      font-size: 16px;
+      width: 350px !important;
+      padding-right: 15px !important;
+      padding-bottom: 25px !important;
+    }
+  }
+}
+.container {
+  .img1 {
+    @media (max-width: 992px) {
+      max-width: 100% !important;
+    }
+  }
+  .divtop {
+    li {
+      color: #59585d;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Golos Text", sans-serif;
+    }
+    h4 {
+      /* font-size: 40px !important; */
+      font-family: "Cal Sans", sans-serif;
+      font-weight: 400;
+      @media (max-width: 992px) {
+        font-size: 30px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-family: "Golos Text", sans-serif;
+      color: #59585d;
+      font-size: 14px;
+      @media (max-width: 767px) {
+        width: 250px;
+      }
+      @media (min-width: 768px) and (max-width: 992px) {
+        width: 500px;
+      }
+    }
+  }
+  .divbottom {
+    .text3 {
+      h5 {
+        font-size: 16px !important;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: #333335;
+        transition: 300ms;
+        &:hover {
+          color: #fed403;
+        }
+      }
+    }
+    .bottom {
+      hr{
+        width: 270px !important;
+      }
+      button {
+        width: 182px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Golos Text", sans-serif;
+        background-color: #fed403;
+        border-radius: 5px;
+        border: 0;
+        transition: 400ms;
+        &:hover {
+          background-color: #333335;
+          color: #ffffff;
+        }
+        @media (max-width: 1024px) {
+          display: none !important;
+        }
+      }
+    }
+    .img_text {
+      .p1 {
+        color: #59585d;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        @media (max-width: 992px) {
+          width: 200px;          
+        }
+      }
+      .p2{
+        font-size: 70px;
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+      }
+      .p3{
+        font-size: 25px;
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        padding-top: 20px;
+        @media (max-width: 992px) {
+          width: 200px;          
+        }
+      }
+    }
+  }
+}
