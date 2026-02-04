@@ -264,6 +264,7 @@ header.scrolled .head {
   .divbottom {
     .text3 {
       h5 {
+        cursor: pointer;
         font-size: 16px !important;
         font-family: "Golos Text", sans-serif;
         font-weight: 400;
@@ -292,12 +293,21 @@ header.scrolled .head {
           background-color: #333335;
           color: #ffffff;
         }
-        @media (max-width: 1024px) {
-          display: none !important;
-        }
       }
     }
     .img_text {
+      img{
+        @media (max-width: 767px) {
+          width: 100% !important;
+          margin-top:30px;
+          border-radius: 7px !important; 
+        }
+        @media (min-width: 768px) and (max-width: 992px) {
+          width:70% !important;
+          margin-top:30px;
+          border-radius: 7px !important; 
+        }
+      }
       .p1 {
         color: #59585d;
         font-family: "Golos Text", sans-serif;
