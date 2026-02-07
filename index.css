@@ -602,3 +602,14 @@ header.scrolled .head {
     }
   }
 }
+.sec_6 {
+  @media (max-width: 767px) {
+    padding-top: 500px;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    padding-top: 250px;
+  }
+  @media (min-width: 993px) {
+    padding-top: 150px;
+  }
+}
