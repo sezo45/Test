@@ -49,7 +49,8 @@
                             d="M6.75 11.125a4.375 4.375 0 1 0 8.75 0a4.375 4.375 0 0 0-8.75 0m7.469 3.093l3.031 3.032" />
                     </g>
                 </svg>
-                <svg class="" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                <svg data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+                    class="" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                     style="color: white; cursor: pointer;" viewBox="0 0 26 26">
                     <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
                         <path
@@ -58,6 +59,36 @@
                             d="M13 24c6.075 0 11-4.925 11-11S19.075 2 13 2S2 6.925 2 13s4.925 11 11 11m0 2c7.18 0 13-5.82 13-13S20.18 0 13 0S0 5.82 0 13s5.82 13 13 13" />
                     </g>
                 </svg>
+            </div>
+
+            <div class="offcanvas offcanvas-end bg-black w-50" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"> <img class="ps-3" src="./images/logo_002.png" width="180px" alt=""></h5>
+                    <button type="button" class="btn-close col-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <div class="d-flex flex-column gap-4 ">
+                <a class="yell text-decoration-none " href="./index.html">Home</a>
+                <a class="text-decoration-none" href="">About</a>
+                <a class="text-decoration-none" href="">Services</a>
+                <a class="text-decoration-none" href="">Projects</a>
+                <a class="text-decoration-none" href="">Blog</a>
+                <a class="text-decoration-none" href="">Contact</a>
+            </div>
+                    </div>
+                    <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -381,9 +412,7 @@
             </div>
         </div>
     </section>
-    <section class="sec_6">
-        
-    </section>
+    <section class="sec_6"></section>
 </body>
 
 </html>
