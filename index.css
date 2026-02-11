@@ -766,6 +766,13 @@ header.scrolled .head {
   }
 }
 .sec_7 {
+  button {
+    transition: 300ms;
+    &:hover {
+      background-color: rgb(254 212 3) !important;
+      color: rgb(28 28 29) !important;
+    }
+  }
   .inimation {
     p {
       color: #0b0900;
@@ -788,8 +795,8 @@ header.scrolled .head {
     top: 35%;
     background-color: rgb(49 49 49);
     @media (max-width: 767px) {
-          max-width: 95%;
-        }
+      max-width: 95%;
+    }
     .text_top {
       .p1 {
         font-size: 13px;
