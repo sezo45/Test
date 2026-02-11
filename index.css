@@ -797,6 +797,9 @@ header.scrolled .head {
     @media (max-width: 767px) {
       max-width: 95%;
     }
+    @media (min-width: 1025px) {
+      max-width: 1300px !important;
+    }
     .text_top {
       .p1 {
         font-size: 13px;
@@ -871,6 +874,7 @@ header.scrolled .head {
     }
     hr {
       width: 1150px;
+      max-width: 100%;
       color: #ffffff;
     }
     .div_bottom {
@@ -944,6 +948,57 @@ header.scrolled .head {
             }
           }
         }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    padding-bottom: 82rem;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    padding-bottom: 70rem;
+  }
+  @media (min-width: 993px) {
+    padding-bottom: 23rem;
+  }
+}
+.sec_8 {
+  .container {
+    @media (min-width: 1025px) {
+      max-width: 1300px !important;
+    }
+
+    .card {
+      background-color: #f6f6f6;
+      border-radius: 5px;
+      padding: 12px 20px 150px 20px;
+      transition: 300ms;
+      h3 {
+        font-size: 40px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 800;
+      }
+      p {
+        font-size: 17px;
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+        color: rgb(89 88 93);
+      }
+      div {
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        p {
+          margin: 0;
+          padding: 15px 21px;
+          border-radius: 0 5px 0 5px;
+          background-color: rgb(49 49 49);
+          color: rgb(255 255 255);
+          font-family: "Golos Text", sans-serif;
+          font-weight: 800;
+        }
+      }
+      &:hover {
+        background-color: #fed403 !important;
       }
     }
   }
