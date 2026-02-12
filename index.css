@@ -1023,3 +1023,77 @@ header.scrolled .head {
     }
   }
 }
+.sec_9 {
+  background-color: #313131;
+  padding-top: 110px;
+  padding-bottom: 22px;
+  .container {
+    p {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #ffffff;
+      font-family: "Golos Text", sans-serif;
+      font-weight: 400;
+      padding-bottom: 14px;
+      margin: 0;
+    }
+    h2 {
+      font-size: clamp(30px, 10vw, 52px);
+      color: #ffffff;
+      font-family: "Cal Sans", sans-serif;
+      font-weight: 400;
+    }
+    .spa{
+      width: 100%;
+      color: #999;
+    }
+    .but_pirant {
+      .but1 {
+        width: 116px;
+        height: 38px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: rgb(28 28 29);
+        background-color: #fed403;
+        border: 1px solid #3e3e3e;
+      }
+      .but2 {
+        width: 152px;
+        height: 38px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: #313131;
+        border: 1px solid #3e3e3e;
+      }
+      .but3 {
+        width: 159px;
+        height: 38px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: #313131;
+        border: 1px solid #3e3e3e;
+      }
+      .but4 {
+        width: 136px;
+        height: 38px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: #313131;
+        border: 1px solid #3e3e3e;
+      }
+      .but5 {
+        width: 148px;
+        height: 38px;
+        font-family: "Golos Text", sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: #313131;
+        border: 1px solid #3e3e3e;
+      }
+    }
+  }
+}
